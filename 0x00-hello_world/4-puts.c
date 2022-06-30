@@ -1,8 +1,9 @@
 #include<stdio.h>
 /**
- * main - "Programming is like building a multilingual puzzle
+ * main - prints the size of various types
  *
- * Return: 0
+ * Return: 0 if exited properly, non-zero otherwise
+ *
  */
 int main(void)
 {
