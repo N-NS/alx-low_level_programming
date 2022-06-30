@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* main -print using puts command*/
+/*
+ *  main -print using puts command
+ *
+ *  return: 0
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
