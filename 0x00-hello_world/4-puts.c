@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- *  main -print using puts command
- *
- *  return: 0
+/**
+ *  main - Entry point
+ *  main description - puts text
+ *  Return: 0
  */
 int main(void)
 {
