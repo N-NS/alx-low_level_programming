@@ -10,13 +10,13 @@ int main(void)
 	char acharacter;
 	int ainteger;
 	long along;
-	long long alonglong;
-	float afloat;
+	long long c;
+	float f;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(acharacter));
 	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(ainteger));
 	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(along));
-	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(alonglong));
-	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(afloat));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
