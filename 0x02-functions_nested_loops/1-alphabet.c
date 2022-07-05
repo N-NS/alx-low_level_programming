@@ -4,13 +4,16 @@
 /**
  * print_alphabet -prints the alphabet in lowercase
  */
-void print_alphabet(void)
+
+int main(void)
+
+void print_alphabet(void);
 {
 	int k;
 
 	for (k = 'a'; k <= 'z'; k++)
 	{
-		_putchar ('k');
+		putchar ('k');
 	}
-	_putchar ('\n');
+	putchar ('\n');
 }
