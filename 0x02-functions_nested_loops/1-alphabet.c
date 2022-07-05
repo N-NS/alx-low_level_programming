@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_alphabet_x10 - enumerates letters in lowercase
+ * print_alphabet -> prints the lowercase alphabets
  */
 
 void print_alphabet(void)
@@ -11,7 +11,6 @@ void print_alphabet(void)
 
 	for (k = 'a'; k <= 'z'; k++)
 	{
-		_putchar ('k');
+		_putchar ("'k'\n");
 	}
-	_putchar ('\n')
 }
