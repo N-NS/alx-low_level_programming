@@ -10,7 +10,7 @@ void print_alphabet(void)
 
 	for (ch = 97; ch <= 122; ch++)
 	{
-		putchar(ch);
+		putchar (ch);
 	}
 	putchar (10); /* ascii code for return*/
 
