@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * main -prints the alphabet in lowercase
- * Return: always 0
+ * print_alphabet_x10 - enumerates letters in lowercase
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	int k;
 
@@ -14,7 +13,5 @@ int main(void)
 	{
 		putchar ('k');
 	}
-	putchar ('\n');
-
-	return (0);
+	putchar ('\n')
 }
