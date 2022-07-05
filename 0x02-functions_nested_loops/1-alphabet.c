@@ -2,12 +2,11 @@
 #include <stdio.h>
 
 /**
- * print_alphabet -prints the alphabet in lowercase
+ * main -prints the alphabet in lowercase
+ * Return: always 0
  */
 
 int main(void)
-
-void print_alphabet(void);
 {
 	int k;
 
@@ -16,4 +15,6 @@ void print_alphabet(void);
 		putchar ('k');
 	}
 	putchar ('\n');
+
+	return (0);
 }
