@@ -5,13 +5,13 @@
  * print_alphabet_x10 - enumerates letters in lowercase
  */
 
-void print_alphabet_x10(void)
+void print_alphabet(void);
 {
 	int k;
 
 	for (k = 'a'; k <= 'z'; k++)
 	{
-		putchar ('k');
+		_putchar ('k');
 	}
-	putchar ('\n')
+	_putchar ('\n')
 }
